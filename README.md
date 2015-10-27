@@ -27,10 +27,10 @@ market.getItemPrice(730, 'MP9 | Storm (Minimal Wear)', function(err, data) {
 ```json
 {
     "success": true,
-    "lowest_price": '$0.06',
-    "volume": '237',
-    "median_price": '$0.04',
-    "market_hash_name": 'MP9 | Storm (Minimal Wear)'
+    "lowest_price": "$0.06",
+    "volume": "237",
+    "median_price": "$0.04",
+    "market_hash_name": "MP9 | Storm (Minimal Wear)"
 }
 ```
 
@@ -48,15 +48,15 @@ market.getItemsPrice(730, ['MP9 | Storm (Minimal Wear)', 'Sawed-Off | Origami (W
 ```json
 {
     "Sawed-Off | Origami (Well-Worn)": {
-        "success":true,
-        "lowest_price":"$0.09",
-        "volume":"160",
-        "median_price":"$0.07"
+        "success": true,
+        "lowest_price": "$0.09",
+        "volume": "160",
+        "median_price": "$0.07"
     }, "MP9 | Storm (Minimal Wear)": {
-        "success":true,
-        "lowest_price":"$0.06",
-        "volume":"236",
-        "median_price":"$0.05"
+        "success": true,
+        "lowest_price": "$0.06",
+        "volume": "236",
+        "median_price": "$0.05"
     }
 }
 ```
@@ -75,10 +75,10 @@ market.getItemsPrice(730, 'MP9 | Storm (Minimal Wear)', function(data) {
 ```json
 {
     "Sawed-Off | Origami (Well-Worn)": {
-        "success":true,
-        "lowest_price":"$0.09",
-        "volume":"160",
-        "median_price":"$0.07"
+        "success": true,
+        "lowest_price": "$0.09",
+        "volume": "160",
+        "median_price": "$0.07"
     }
 }
 ```
