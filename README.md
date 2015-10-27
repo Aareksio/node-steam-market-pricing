@@ -85,7 +85,7 @@ market.getItemsPrice(730, 'MP9 | Storm (Minimal Wear)', function(data) {
 
 **Note:** You can't handle response errors using getItemsPrice() method, any error will show as `success`: `false`.
 
-##Methods
+## Methods
 
 ### getItemPrice(appid, name, callback, [currency])
 - `appid` - Steam application id
@@ -106,6 +106,6 @@ Requests steam item market details
 
 Requests multiple steam items market details. Any error will be shown as `success`: `false`.
 
-##License
+## License
 MIT
 
