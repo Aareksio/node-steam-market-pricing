@@ -29,7 +29,7 @@ exports.getItemPrice = function(appid, name, callback, currency) {
     }, function(err, response, body) {
         if (!err && response.statusCode === 200) {
             body.market_hash_name = name;
-            callback(null, body);
+            callback(null, JSON.stringify(body));
         } else {
             callback(err);
         }
