@@ -1,0 +1,33 @@
+{
+  "name": "steam-market-pricing",
+  "version": "1.0.0",
+  "description": "Simple module that checks steam market prices",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aareksio/node-steam-market-pricing.git"
+  },
+  "keywords": [
+    "steam",
+    "market",
+    "pricing",
+    "price",
+    "community",
+    "marketplace",
+    "item",
+    "skin",
+    "weapon",
+    "cs:go",
+    "csgo",
+    "dota",
+    "dota2",
+    "tf",
+    "tf2"
+  ],
+  "author": "Arkadiusz Sygulski <arkadiusz@sygulski.pl> (http://sygulski.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aareksio/node-steam-market-pricing/issues"
+  },
+  "homepage": "https://github.com/Aareksio/node-steam-market-pricing#readme"
+}
