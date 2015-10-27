@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/Aareksio/node-steam-market-pricing/issues"
   },
-  "homepage": "https://github.com/Aareksio/node-steam-market-pricing#readme"
+  "homepage": "https://github.com/Aareksio/node-steam-market-pricing#readme",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
 }
