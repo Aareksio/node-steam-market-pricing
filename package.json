@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/Aareksio/node-steam-market-pricing#readme",
   "dependencies": {
-    "q": "^1.4.1"
+    "request": "^2.65.0"
   }
 }
