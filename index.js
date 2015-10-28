@@ -29,7 +29,7 @@ exports.getItemPrice = function(appid, name, callback, currency) {
     }, function(err, response, body) {
         if (!err && response.statusCode === 200) {
             body.market_hash_name = name;
-            callback(null, JSON.stringify(body));
+            callback(null, body);
         } else {
             callback(err);
         }
@@ -81,7 +81,7 @@ exports.getItemsPrice = function(appid, names, callback, currency) {
                 result[name] = {'success': false};
             }
             if(Object.keys(result).length === names.length) {
-                callback(JSON.stringify(result));
+                callback(result);
             }
         });
     });
