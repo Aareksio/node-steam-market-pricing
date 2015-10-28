@@ -39,26 +39,23 @@ market.getItemPrice(730, 'MP9 | Storm (Minimal Wear)', function(err, data) {
 ```js
 var market = require('steam-market-pricing');
 
-market.getItemsPrice(730, ['MP9 | Storm (Minimal Wear)', 'Sawed-Off | Origami (Well-Worn)'], function(data) {
-    console.log(data);
+var names = [
+    'MP9 | Storm (Minimal Wear)', 
+    'Sawed-Off | Origami (Well-Worn)'
+];
+
+market.getItemsPrice(730, names, function(data) {
+    //console.log(data);
+    for(var i in names) {
+        console.log(names[i] + ' median price: ' + data[names[i]]['median_price']);
+    }
 });
 ```
 
 **Output:**
-```json
-{
-    "Sawed-Off | Origami (Well-Worn)": {
-        "success": true,
-        "lowest_price": "$0.09",
-        "volume": "160",
-        "median_price": "$0.07"
-    }, "MP9 | Storm (Minimal Wear)": {
-        "success": true,
-        "lowest_price": "$0.06",
-        "volume": "236",
-        "median_price": "$0.05"
-    }
-}
+```
+MP9 | Storm (Minimal Wear) median price: $0.05
+Sawed-Off | Origami (Well-Worn) median price: $0.09
 ```
 
 ### Get single item data using getItemsPrice
