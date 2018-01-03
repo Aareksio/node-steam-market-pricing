@@ -9,7 +9,7 @@ Install using:
 npm install steam-market-pricing
 ```
 
-**Note** Latest release requires `async/await` (node >= 7.6) support to run  to run, install 1.0.3 if your environment does not support it
+**Note** Latest release requires `async/await` (node >= 7.6) support to run  to run, check [v1 branch](https://github.com/Aareksio/node-steam-market-pricing/tree/v1) if your environment does not support it
 
 ## Usage
 
