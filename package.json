@@ -1,6 +1,6 @@
 {
   "name": "steam-market-pricing",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Simple module that checks steam market prices",
   "main": "index.js",
   "scripts": {
