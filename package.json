@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "Simple module that checks steam market prices",
   "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aareksio/node-steam-market-pricing.git"
@@ -31,6 +34,13 @@
   },
   "homepage": "https://github.com/Aareksio/node-steam-market-pricing#readme",
   "dependencies": {
-    "request": "^2.65.0"
+    "got": "^8.0.1",
+    "p-map": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0"
+  },
+  "engines": {
+    "node": ">= 7.6"
   }
 }
