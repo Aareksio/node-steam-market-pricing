@@ -6,7 +6,7 @@
 
 Install using:
 ```js
-npm install steam-market-pricing@15
+npm install steam-market-pricing@1
 ```
 
 ## Usage
