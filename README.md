@@ -86,7 +86,7 @@ Requests steam item market details. Returns promise.
 - `appid` - Steam application id
 - `names` - Array with item names, market hashed
 - `currency` - Optional. Currency code
-- `currency` - Optional. Number of concurrent requests
+- `concurrency` - Optional. Number of concurrent requests
 
 Requests multiple steam items market details. Returns promise. 
 
